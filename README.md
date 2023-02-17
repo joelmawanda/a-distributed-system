@@ -17,7 +17,7 @@ git clone https://github.com/yourusername/rank-based-command-execution.git
     This will start the server on port 9090.
 # Sending commands
 You can send commands to the server using a TCP client, such as telnet or nc. The commands should be in the following format:
-    <rank>: <command> 
+    **<rank>: <command>** 
 For example, to send a command with rank 2, you can run the following command in a separate terminal window:
     echo "2: my command" | nc localhost 9090 
 This will send the command my command to the server, and it will be executed by the client with rank 2 if there are no higher ranked clients.
