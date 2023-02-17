@@ -13,7 +13,7 @@ git clone https://github.com/yourusername/rank-based-command-execution.git
   2.	Compile the Java classes:
       **javac *.java** 
   3.	Start the server:
-    java CommandController 
+    **java CommandController** 
     This will start the server on port 9090.
 # Sending commands
 You can send commands to the server using a TCP client, such as telnet or nc. The commands should be in the following format:
