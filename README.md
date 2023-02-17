@@ -12,21 +12,21 @@ git clone https://github.com/yourusername/rank-based-command-execution.git
 # Run the application
   1.	Open a terminal and navigate to the cloned repository.
   2.	Compile the Java classes:
-    javac *.java 
+      javac *.java 
   3.	Start the server:
     java CommandController 
     This will start the server on port 9090.
 # Sending commands
 You can send commands to the server using a TCP client, such as telnet or nc. The commands should be in the following format:
-<rank>: <command> 
+    <rank>: <command> 
 For example, to send a command with rank 2, you can run the following command in a separate terminal window:
-echo "2: my command" | nc localhost 9090 
+    echo "2: my command" | nc localhost 9090 
 This will send the command my command to the server, and it will be executed by the client with rank 2 if there are no higher ranked clients.
 # Stopping the server
 To stop the server, you can send the following command:
-  stop 
+    stop 
 This will stop the server and terminate the application.
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
