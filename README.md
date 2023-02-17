@@ -26,7 +26,7 @@ To stop the server, you can send the following command:
     stop 
 This will stop the server and terminate the application.
 # License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details
 
 
 
