@@ -11,7 +11,7 @@ git clone https://github.com/yourusername/rank-based-command-execution.git
 # Run the application
   1.	Open a terminal and navigate to the cloned repository.
   2.	Compile the Java classes:
-      javac *.java 
+      **javac *.java** 
   3.	Start the server:
     java CommandController 
     This will start the server on port 9090.
